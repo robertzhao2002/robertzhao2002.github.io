@@ -5,7 +5,7 @@ fieldset {
     margin-top:10px;
 }
 #gradepointaverage {
-    padding-top:40px !important;
+    padding-top:40px;
 }
 #gradepointaverage::before {
     content:"Your GPA: ";
@@ -14,7 +14,7 @@ fieldset {
     content:"Class ";
 }
 .m-5 {
-    padding-top:100px !important;
+    padding-top:100px;
 }
 #RemoveClass {
     float:right;
