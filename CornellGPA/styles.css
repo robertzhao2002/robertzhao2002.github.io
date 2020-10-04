@@ -1,0 +1,26 @@
+fieldset {
+    border:1px solid #ccc;
+    padding:15px;
+    border-radius:8px;
+    margin-top:10px;
+}
+
+#theForm{
+    padding-top:40px;
+}
+#gradepointaverage {
+    margin:20px !important;
+}
+#gradepointaverage::before {
+    content:"Your GPA: ";
+}
+#number::before {
+    content:"Class ";
+}
+.m-5 {
+    margin:20px !important;
+    padding:0px;
+}
+#RemoveClass {
+    float:right;
+}
