@@ -6,7 +6,6 @@ var classes = [];
 var div_id = 0;
 var defaultclass = $('#default');
 defaultclass.hide();
-console.log('higger');
 $(document).ready(function(){
 
     var formdiv = $("#0");
@@ -24,7 +23,6 @@ $(document).ready(function(){
         $('#' +div_id.toString() + ' #number').remove();
         cln.prepend("<h2 id='number' style='color:white'>" + (div_id+1).toString() + "</h2>");
         classes.push(cln);
-        console.log('wigger');
     });
 
     $("#displaya").click(function(){

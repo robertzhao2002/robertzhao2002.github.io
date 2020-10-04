@@ -6,10 +6,10 @@ fieldset {
 }
 
 #theForm{
-    padding-top:40px;
+    padding-top:100px;
 }
 #gradepointaverage {
-    margin:20px !important;
+    padding-top:40px !important;
 }
 #gradepointaverage::before {
     content:"Your GPA: ";
