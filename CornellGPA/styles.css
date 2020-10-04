@@ -4,10 +4,6 @@ fieldset {
     border-radius:8px;
     margin-top:10px;
 }
-
-#theForm{
-    padding-top:100px;
-}
 #gradepointaverage {
     padding-top:40px !important;
 }
@@ -18,8 +14,7 @@ fieldset {
     content:"Class ";
 }
 .m-5 {
-    margin:20px !important;
-    padding:0px;
+    padding-top:100px !important;
 }
 #RemoveClass {
     float:right;
