@@ -3,5 +3,5 @@
 }
 
 .nav-bar{
-    position:fixed;
+    position:sticky;
 }
