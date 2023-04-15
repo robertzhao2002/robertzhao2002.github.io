@@ -1,6 +1,34 @@
 @import url("fontawesome-all.min.css");
 @import url("https://fonts.googleapis.com/css?family=Roboto:100,300,100italic,300italic");
 
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+.projectcard {
+	background-color: #272833;
+	border-radius: 10px;
+	padding: 15px;
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
+}
+
+.projectcard:hover {
+	transform: scale(1.02);
+	transform-origin: bottom;
+}
+
+.learnmore {
+	width: 100%;
+}
+
+.projectname {
+	text-align: center;
+}
+
 /*
 	Landed by HTML5 UP
 	html5up.net | @ajlkn
@@ -3882,6 +3910,15 @@ body.is-touch #banner {
 		width: 45%;
 	}
 
+	.projectcard:hover {
+		transform: scale(1.02);
+		transform-origin: bottom;
+	}
+
+	.projects {
+		display: inline-flex;
+	}
+
 }
 
 /* Small */
@@ -4193,6 +4230,15 @@ body.is-touch #banner {
 	.projectcard {
 		width: 90%;
 	}
+
+	.projectcard:hover {
+		transform: scale(1.02);
+		transform-origin: bottom;
+	}
+
+	.projects {
+		display: inline-flex;
+	}
 }
 
 /* XSmall */
@@ -4262,34 +4308,15 @@ body.is-touch #banner {
 	}
 
 	.projectcard {
-		width: 100%;
-		margin: 2px;
+		width: 90%;
+	}
+
+	.projectcard:hover {
+		transform: scale(1.02);
+		transform-origin: bottom;
 	}
 
 	.projects {
-		display: block;
+		display: inline-block;
 	}
-}
-
-.projects {
-	display: flex;
-	flex-wrap: wrap;
-	justify-content: space-between;
-}
-
-.projectcard {
-	background-color: #272833;
-	border-radius: 10px;
-	padding: 15px;
-	width: 30%;
-	margin: 10px;
-	display: inline-block;
-}
-
-.learnmore {
-	width: 100%;
-}
-
-.projectname {
-	text-align: center;
 }
