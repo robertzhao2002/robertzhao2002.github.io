@@ -3878,6 +3878,10 @@ body.is-touch #banner {
 		padding: 4.5em 0;
 	}
 
+	.projectcard {
+		width: 45%;
+	}
+
 }
 
 /* Small */
@@ -4186,6 +4190,9 @@ body.is-touch #banner {
 		padding: 3.25em 1.5em;
 	}
 
+	.projectcard {
+		width: 90%;
+	}
 }
 
 /* XSmall */
@@ -4254,18 +4261,33 @@ body.is-touch #banner {
 		padding: 0;
 	}
 
+	.projectcard {
+		width: 100%;
+		margin: 2px;
+	}
+
+	.projects {
+		display: block;
+	}
+}
+
+.projects {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .projectcard {
 	background-color: #272833;
 	border-radius: 10px;
 	padding: 15px;
-	height: 420px;
-	width: 450px;
+	width: 30%;
+	margin: 10px;
+	display: inline-block;
 }
 
 .learnmore {
-	display: block;
+	width: 100%;
 }
 
 .projectname {
