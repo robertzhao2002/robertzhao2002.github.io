@@ -261,3 +261,44 @@ function reveal() {
 }
 
 window.addEventListener("load", reveal);
+
+const images = document.querySelectorAll('.slideshow img');
+const imageCount = images.length;
+let currentIndex = 0;
+
+images[0].classList.add('active');
+
+function showImage(index) {
+	images[currentIndex].classList.remove('active');
+	images[index].classList.add('active');
+	currentIndex = index;
+}
+
+function nextImage() {
+	showImage((currentIndex + 1) % imageCount);
+}
+
+function prevImage() {
+	showImage((currentIndex - 1 + imageCount) % imageCount);
+}
+
+document.querySelector('.prev').addEventListener('click', prevImage);
+document.querySelector('.next').addEventListener('click', nextImage);
+
+setInterval(nextImage, 6000);
+
+function toggleAccordion(event) {
+	console.log(event);
+	var accordionHeader = event.target;
+	var accordionContent = accordionHeader.nextElementSibling;
+	accordionHeader.classList.toggle("active");
+	accordionContent.classList.toggle("active");
+	if (accordionContent.style.maxHeight) {
+		accordionContent.style.maxHeight = null;
+	} else {
+		accordionContent.style.maxHeight = accordionContent.scrollHeight + "px";
+	}
+}
+
+
+

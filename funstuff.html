@@ -1,9 +1,4 @@
 <!DOCTYPE HTML>
-<!--
-	Landed by HTML5 UP
-	html5up.net | @ajlkn
-	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
--->
 <html>
 
 <head>
@@ -19,8 +14,6 @@
 
 <body class="is-preload">
     <div id="page-wrapper">
-
-        <!-- Header -->
         <header id="header">
             <h1 id="logo"><a href="index.html"><img style="vertical-align:middle;margin-bottom: 10px" height=30px
                         width=30px src="images/fav.png" /> R. Zhao</a>
@@ -35,16 +28,82 @@
             </nav>
         </header>
 
-        <!-- Main -->
         <div id="main" class="wrapper style1">
             <div class="container">
                 <header class="major">
                     <h2>🎉 Fun Stuff</h2>
                 </header>
+                <div class="accordion">
+                    <div class="accordion-item" id="hobbies">
+                        <h3 class="accordion-header active" style="margin: 0; padding: 0;"
+                            onclick="toggleAccordion(event)">
+                            🃏 Hobbies</h3>
+                        <div class="accordion-content active">
+                            <h4>Video Games</h4>
+                            <p>In my free time, I love to play video games. Some games that I play the most are <a
+                                    href="https://jstris.jezevec10.com/" target="_blank"
+                                    rel="noopener noreferrer">Jstris</a>,
+                                Clash Royale,
+                                Bloons TD 6, Pokémon, and Minesweeper. </p>
+                            <h4>Programming</h4>
+                            <p>In addition to studying computer science and software engineering, I enjoy doing it in my
+                                free
+                                time as
+                                well. As a recreational programmer, I constantly find myself using programming to make
+                                my life
+                                easier.</p>
+                            <h4>Rubik's Cubing</h4>
+                            <p>I also like to solve Rubik's cubes of various types, which is commonly referred to as
+                                "speedcubing."</p>
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="sports">
+                        <h3 class="accordion-header" style="margin: 0; padding: 0;" onclick="toggleAccordion(event)">
+                            🏅 Sports</h3>
+                        <div class="accordion-content">
+                            I'm definitely a huge sports fan
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="anime">
+                        <h3 class="accordion-header" style="margin: 0; padding: 0;" onclick="toggleAccordion(event)">
+                            👺 Anime</h3>
+                        <div class="accordion-content">
+                            I'm definitely a huge anime fan
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="travel">
+                        <h3 class="accordion-header" style="margin: 0; padding: 0;" onclick="toggleAccordion(event)">
+                            🗺️ Travel</h3>
+                        <div class="accordion-content">
+                            Below are some pictures from places that I've been to.
+                            <div class="slideshow-container">
+                                <div class="slideshow"><img src="./images/banff.jpg">
+                                    <img src="./images/dugout.jpg">
+                                    <img src="./images/hangzhou.jpg">
+                                    <a class="prev" href="#">&#10094;</a>
+                                    <a class="next" href="#">&#10095;</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="music">
+                        <h3 class="accordion-header" style="margin: 0; padding: 0;" onclick="toggleAccordion(event)">
+                            🎼 Music</h3>
+                        <div class="accordion-content">
+                            My favorite music
+                        </div>
+                    </div>
+                    <div class="accordion-item" id="other">
+                        <h3 class="accordion-header" style="margin: 0; padding: 0;" onclick="toggleAccordion(event)">
+                            💎 Other</h3>
+                        <div class="accordion-content">
+                            Other cool things
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
 
-        <!-- Footer -->
         <footer id="footer">
             <ul class="icons">
                 <li><a href="https://www.youtube.com/channel/UCzYROYODhbwiBhnEj2cxiZA" target="_blank"
@@ -78,7 +137,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
