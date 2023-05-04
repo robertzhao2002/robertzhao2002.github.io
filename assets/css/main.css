@@ -120,6 +120,10 @@ p {
 	max-height: 0;
 }
 
+.accordion-content.active>center>iframe {
+	height: 569px;
+}
+
 .accordion-content.active>b {
 	display: block;
 	margin-bottom: 10px;
@@ -127,7 +131,7 @@ p {
 
 .accordion-content.active {
 	display: block;
-	max-height: 1000px;
+	max-height: 2000px;
 	margin-top: 10px;
 	margin-left: 15px;
 	margin-right: 15px;
@@ -161,6 +165,14 @@ p {
 
 #interests:hover {
 	background-color: rgba(190, 69, 0, 0.88);
+}
+
+#opinions {
+	background-color: rgba(171, 0, 65, 0.66);
+}
+
+#opinions:hover {
+	background-color: rgba(171, 0, 65, 0.88);
 }
 
 #hobbies {
@@ -220,7 +232,7 @@ p {
 	display: block;
 }
 
-.accordion-content>b>a {
+.accordion-content>p>b>a {
 	color: rgb(223, 223, 237);
 }
 
@@ -557,7 +569,6 @@ pre {
 	-webkit-overflow-scrolling: touch;
 	font-family: "Courier New", monospace;
 	font-size: 0.9em;
-	margin: 0 0 2em 0;
 }
 
 pre code {
@@ -4143,6 +4154,9 @@ body.is-touch #banner {
 		width: 126px;
 	}
 
+	.accordion-content.active>center>iframe {
+		height: 400px;
+	}
 }
 
 /* Small */
@@ -4479,6 +4493,10 @@ body.is-touch #banner {
 		height: 108px;
 		width: 108px;
 	}
+
+	.accordion-content.active>center>iframe {
+		height: 350px;
+	}
 }
 
 /* XSmall */
@@ -4574,5 +4592,9 @@ body.is-touch #banner {
 	.skills>svg {
 		height: 90px;
 		width: 90px;
+	}
+
+	.accordion-content.active>center>iframe {
+		height: 300px;
 	}
 }

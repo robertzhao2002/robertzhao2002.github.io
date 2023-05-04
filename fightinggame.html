@@ -38,8 +38,23 @@
                 </header>
                 <section>
                     <h3>Inspiration</h3>
-                    I'm a big fan of turn-based games where you have to think several steps ahead of your opponent. I
-                    decided to build this engine after completing my functional programming course in college.
+                    <p>I'm a big fan of turn-based games where you have to think several steps ahead of your opponent. I
+                        decided to build this engine after completing my functional programming course in college.</p>
+
+                    <h3>JSON Parsing</h3>
+                    <p>Below is a code snippet on how I dynamically read the JSON Game data. The full code can be found
+                        <a
+                            href="https://github.com/robertzhao2002/Turn-based-Fighting-Game/blob/rework-accuracy-and-add-critical-hit/util/json.ml">here</a>.
+                    </p>
+                    <pre>
+<code >module type AdaptableJSONData = sig
+    val main_field_name : string
+    val object_name : string
+    val json_file : string
+end</code>
+                    </pre>
+                    <h3>OCaml CICD</h3>
+
                 </section>
             </div>
         </div>
@@ -49,7 +64,8 @@
             <ul class="icons">
                 <li><a href="https://www.youtube.com/channel/UCzYROYODhbwiBhnEj2cxiZA" target="_blank"
                         rel="noopener noreferrer" class="icon brands alt fa-youtube"><span
-                            class="label">YouTube</span></a></li>
+                            class="label">YouTube</span></a>
+                </li>
                 <li><a href="https://www.linkedin.com/in/robert-zhao-037247190/" target="_blank"
                         rel="noopener noreferrer" class="icon brands alt fa-linkedin-in"><span
                             class="label">LinkedIn</span></a></li>
@@ -78,7 +94,6 @@
     <script src="assets/js/breakpoints.min.js"></script>
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
-
 </body>
 
 </html>
