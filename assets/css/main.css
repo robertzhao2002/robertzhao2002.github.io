@@ -115,12 +115,11 @@ p {
 
 .accordion-content {
 	display: none;
-	overflow: hidden;
 	transition: max-height 1s ease-out;
 	max-height: 0;
 }
 
-.accordion-content.active>center>iframe {
+.col {
 	height: 569px;
 }
 
@@ -247,6 +246,18 @@ p {
 .company-logo>svg {
 	height: 25px;
 	width: 25px;
+}
+
+.two-col {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	grid-gap: 30px;
+}
+
+#infographic {
+	width: 100%;
+	aspect-ratio: 1/1;
+	padding-bottom: 20px;
 }
 
 /*
@@ -4028,6 +4039,9 @@ body.is-touch #banner {
 		padding: 4.5em 0;
 	}
 
+	.col {
+		height: 300px;
+	}
 }
 
 /* Medium */
@@ -4154,8 +4168,17 @@ body.is-touch #banner {
 		width: 126px;
 	}
 
-	.accordion-content.active>center>iframe {
+	.two-col {
+		display: block;
+	}
+
+	.col {
 		height: 400px;
+	}
+
+	#infographic {
+		width: 100%;
+		height: 90%;
 	}
 }
 
@@ -4494,8 +4517,17 @@ body.is-touch #banner {
 		width: 108px;
 	}
 
-	.accordion-content.active>center>iframe {
+	.col {
 		height: 350px;
+	}
+
+	.two-col {
+		display: block;
+	}
+
+	#infographic {
+		width: 100%;
+		height: 400px;
 	}
 }
 
@@ -4594,7 +4626,16 @@ body.is-touch #banner {
 		width: 90px;
 	}
 
-	.accordion-content.active>center>iframe {
-		height: 300px;
+	.col {
+		height: 200px;
+	}
+
+	.two-col {
+		display: block;
+	}
+
+	#infographic {
+		width: 100%;
+		height: 250px;
 	}
 }

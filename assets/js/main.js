@@ -296,7 +296,7 @@ function toggleAccordion(event) {
 	if (accordionContent.style.maxHeight) {
 		accordionContent.style.maxHeight = null;
 	} else {
-		accordionContent.style.maxHeight = "2000" + "px";
+		accordionContent.style.maxHeight = "3000" + "px";
 	}
 }
 
