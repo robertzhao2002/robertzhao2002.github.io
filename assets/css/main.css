@@ -223,6 +223,10 @@ p {
 	color: rgb(223, 223, 237);
 }
 
+.accordion-content>.two-col>p>b>a {
+	color: rgb(223, 223, 237);
+}
+
 .company-logo {
 	display: flex;
 	background-color: rgba(255, 255, 255);
