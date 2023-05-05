@@ -182,6 +182,14 @@ p {
 	background-color: rgba(0, 0, 128, 0.88);
 }
 
+#cubing {
+	background-color: rgba(2, 151, 196, 0.66);
+}
+
+#cubing:hover {
+	background-color: rgba(2, 151, 196, 0.88);
+}
+
 #sports {
 	background-color: rgba(77, 0, 180, 0.66);
 }
@@ -220,6 +228,10 @@ p {
 
 #other:hover {
 	background-color: rgba(65, 0, 89, 0.88);
+}
+
+.accordion-header {
+	display: flex;
 }
 
 .accordion-content>h4 {
